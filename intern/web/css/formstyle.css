@@ -1,0 +1,45 @@
+.log-box{
+        color: #fff;
+        width: 340px;
+        transform: translate(30%, 20%);
+        box-sizing: border-box;
+        position: relative;
+        padding: 40px 30px;
+        border: 3px solid;
+        border-radius: 0 20px ;
+        font-size: 18px;
+        background: rgba(0,0,0,.4);}
+    h2{
+        margin: 0;
+        padding: 0 0 20px;
+        text-align: center;}
+    .log-box input{
+        width: 100%;
+        margin-bottom: 20px;
+        border: none;
+        outline: none;
+        height: 40px;
+        color: #fff;
+       }
+    .log-box input[type="text"],.log-box input[type="password"]{
+        border-bottom: 1px solid #fff;
+        background-color: transparent;}
+    
+    ::placeholder {
+        color: rgba(255,255,255,.7);}
+    .log-box input[type="submit"]{
+        background-color: #00bb8f;
+        border-radius: 20px;
+        cursor: pointer;}
+    h2{
+        color: #ffff5e}
+    .af{color: #ff4139;
+    font-size: 20px;}
+    .af:hover{
+        color: #4ee347;
+    }
+    .log-box input[type="button"]{
+        background-color: #00bb8f;
+        border-radius: 20px;
+        cursor: pointer;}
+    
